@@ -1,5 +1,8 @@
 import { CheckCircle, Users, Award, Headphones } from "lucide-react";
 
+
+
+
 const StatisticsComponent = () => {
   return (
     <section className="text-gray-600 body-font">
