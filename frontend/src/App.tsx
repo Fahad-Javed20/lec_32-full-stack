@@ -1,4 +1,3 @@
-import CounterComponent from "./components/CounterComponent";
 import HomePage from "./pages/HomePage";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import CounterProvider from "./providers/CounterProvider";
@@ -10,7 +9,6 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <CounterProvider>
         <HomePage />
-       <CounterComponent />
       </CounterProvider>
     </QueryClientProvider>
   );

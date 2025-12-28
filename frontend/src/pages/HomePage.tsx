@@ -28,9 +28,6 @@ const fetchProducts = async (): Promise<Product[]> => {
 };
 
 const HomePage = () => {
-
-
-
   const { data, isLoading, error } = useQuery<Product[]>({
     queryKey: ["products"],
     queryFn: fetchProducts,
